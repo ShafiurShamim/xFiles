@@ -1,0 +1,78 @@
+{
+  "public method": {
+    "prefix": "pub",
+    "body": [
+      "public function ${1:newPublicMethod}()",
+      "{",
+      "\treturn \"$2\";",
+      "}"
+    ],
+    "description": "new public method"
+  },
+  "private method": {
+    "prefix": "pri",
+    "body": [
+      "private function ${1:newPrivateMethod}()",
+      "{",
+      "\treturn \"$2\";",
+      "}"
+    ],
+    "description": "new private method"
+  },
+  "protected method": {
+    "prefix": "pro",
+    "body": [
+      "protected function ${1:newProtectedMethod}()",
+      "{",
+      "\treturn \"$2\";",
+      "}"
+    ],
+    "description": "new protected method"
+  },
+  "class": {
+    "prefix": "cla",
+    "body": [
+      "class ${TM_FILENAME_BASE}",
+      "{",
+      "",
+      "    public function ${1:newMethod}()",
+      "    {",
+      "        return \"$2\";",
+      "    }",
+      "",
+      "}  "
+    ],
+    "description": "new class"
+  },
+  "class with constructor": {
+    "prefix": "classWithCons",
+    "body": [
+      "class ${TM_FILENAME_BASE}",
+      "{",
+      "    public function __construct()",
+      "    {",
+      "        $1",
+      "    }",
+      "",
+      "    public function ${2:newMethod}()",
+      "    {",
+      "        return \"$3\";",
+      "    }",
+      "",
+      "}  "
+    ],
+    "description": "new class with constructor"
+  },
+  "test": {
+    "prefix": "test",
+    "body": [
+      "    /** @test */",
+      "    public function ${2:newTest}()",
+      "    {",
+      "        return \"$3\";",
+      "    }"
+    ],
+    "description": "new test method"
+  }
+}
+

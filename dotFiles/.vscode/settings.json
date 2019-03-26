@@ -1,0 +1,29 @@
+{
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 40,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "window.zoomLevel": 0,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/vendor/**": true
+  },
+  "window.titleBarStyle": "custom",
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": false,
+  "workbench.colorTheme": "Slime",
+  "explorer.openEditors.visible": 0,
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1548441140263,
+  "php-cs-fixer.config": "${HOME}/.vscode/.php_cs",
+  "workbench.sideBar.location": "left"
+}

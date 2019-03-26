@@ -1,0 +1,67 @@
+{
+  "bootstrap4 text field": {
+    "prefix": "bs-text",
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label for=\"$1\">$1:</label>",
+      "\t<input type=\"text\" name=\"$1\" class=\"form-control\" id=\"$1\" placeholder=\"$1\">",
+      "</div>"
+    ],
+    "description": "bootstrap4 form-group text field"
+  },
+  "bootstrap4 textarea field": {
+    "prefix": "bs-textarea",
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label for=\"$1\">$2$1:</label>",
+      "\t<textarea name=\"$1\" id=\"$1\" class=\"form-control\"></textarea>",
+      "</div>"
+    ],
+    "description": "bootstrap4 form-group text field"
+  },
+  "bootstrap4 submit button": {
+    "prefix": "bs-submit",
+    "body": ["<button type=\"submit\" class=\"btn btn-default\">$1</button>"],
+    "description": "bootstrap4 submit button"
+  },
+  "bs-card": {
+    "prefix": "bs-card",
+    "body": [
+      "<div class=\"card\">",
+      "\t<div class=\"card-body\">",
+      "\t\t<h5 class=\"card-title\">${1:Title}</h5>",
+      "\t\t<p class=\"card-test\">${2:Content}</p>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "bootstrap4 card"
+  },
+  "bs-card-header": {
+    "prefix": "bs-card-header",
+    "body": [
+      "<div class=\"card\">",
+      "\t<div class=\"card-header\">${1:Header}</div>",
+      "\t<div class=\"card-body\">",
+      "\t\t<h5 class=\"card-title\">${2:Title}</h5>",
+      "\t\t<p class=\"card-test\">${3:Content}</p>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "bootstrap4 card with header"
+  },
+  "bs-card-full": {
+    "prefix": "bs-card-full",
+    "body": [
+      "<div class=\"card\">",
+      "\t<div class=\"card-header\">${1:Header}</div>",
+      "\t<div class=\"card-body\">",
+      "\t\t<h5 class=\"card-title\">${2:Title}</h5>",
+      "\t\t<p class=\"card-test\">${3:Content}</p>",
+      "\t</div>",
+      "\t<div class=\"card-footer\">${4:Footer}</div>",
+      "</div>"
+    ],
+    "description": "bootstrap4 card with header and footer"
+  }
+}
+

@@ -1,0 +1,5 @@
+```
+which python
+
+type python
+```
